@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YZDataCenter", "YZDataCenter\YZDataCenter.csproj", "{64B62D4B-0167-4813-9307-6E9682E36E5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocpNetLib", "IocpNetLib\IocpNetLib.csproj", "{DC5A0A01-3FDA-43F2-8F0D-E76D055FCA8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YZNetPacket", "..\YZDataNode\YZNetPacket\YZNetPacket.csproj", "{6E631997-5E8B-4135-AC64-F694BE95E0E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64B62D4B-0167-4813-9307-6E9682E36E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B62D4B-0167-4813-9307-6E9682E36E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B62D4B-0167-4813-9307-6E9682E36E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B62D4B-0167-4813-9307-6E9682E36E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5A0A01-3FDA-43F2-8F0D-E76D055FCA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5A0A01-3FDA-43F2-8F0D-E76D055FCA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5A0A01-3FDA-43F2-8F0D-E76D055FCA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5A0A01-3FDA-43F2-8F0D-E76D055FCA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E631997-5E8B-4135-AC64-F694BE95E0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E631997-5E8B-4135-AC64-F694BE95E0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E631997-5E8B-4135-AC64-F694BE95E0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E631997-5E8B-4135-AC64-F694BE95E0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
