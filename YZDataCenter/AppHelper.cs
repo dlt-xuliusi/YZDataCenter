@@ -10,6 +10,11 @@ namespace YZDataCenter
 {
     public class AppHelper
     {
+        /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="nTime"></param>
+    /// <returns></returns>
         public static DateTime IntToLocalTime(long nTime)
         {
             DateTime time = new DateTime(1970, 1, 1).AddSeconds(nTime);
