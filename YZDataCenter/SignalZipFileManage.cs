@@ -87,7 +87,6 @@ namespace YZDataCenter
         public void ungzip(string path, string decomPath)
         {
             File.Delete(decomPath);
-            //create our file streams
             using (GZipStream stream = new GZipStream(
                 new FileStream(path, FileMode.Open, FileAccess.ReadWrite), CompressionMode.Decompress))
             {
